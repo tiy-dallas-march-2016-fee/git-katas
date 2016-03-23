@@ -1,8 +1,10 @@
-# Kata 1
-
-## Opening exercises
+# Kata 1: Basic Git Checkin
 
 This kata is designed to practice creating a repo on GitHub and pushing files to that repo.
+
+## Long Explanatory Version
+
+The first time you do this kata, use this version. When you think you understand it well, use the short version below.
 
 * Step 1: Go to [GitHub](https://github.com) and login if you are not currently logged in.
 * Step 2: Create a new repository. Name it anything you like, though I would stick with alphanumeric characters, dash, and underline.
@@ -55,3 +57,18 @@ To https://github.com/Mallioch/steak.git
 ```
 * Step 16: Go to GitHub. Refresh your repo page. You *should* see your file.
 * Step 17: Congratulate yourself! You have checked your code in to your local repo and up on GitHub.
+
+## Short Version
+
+* Step 1: Go to [GitHub](https://github.com) and login if you are not currently logged in.
+* Step 2: Create a new repository.
+* Step 3: Go in your terminal to where you keep your code on your laptop.
+* Step 4: Clone the repo you created in step 2.
+* Step 5: Change into that directory so you are at the root folder of that Git repository.
+* Step 6: Create an html file named `page.html`.
+* Step 7: Create a simple web page with a paragraph that says `Hello Git kata!`
+* Step 8: Now we will make git track the changes. Issue this command in the terminal: `git add page.html`.
+* Step 9: Issue the `git commit -m "committing new page"`. The change is now committed locally.
+* Step 10: Issue the command `git push`.
+* Step 11: Go to GitHub. Refresh your repo page. You *should* see your file.
+* Step 12: Congratulate yourself! You have checked your code in to your local repo and up on GitHub.
