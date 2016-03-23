@@ -20,8 +20,9 @@ The warning isn't bad. You are in fact cloning an empty repository.
 * Step 5: Use the `ls` command. Note that you should have a folder with the same name as the repository you created in step 2.
 * Step 6: Change into that directory so you are at the root folder of that Git repository. If you issue a `ls -a` command, you should see a `.git` folder. There should be no files.
 * Step 7: Create an html file named `page.html`. Either do that by issuing `touch page.html` in the console or create the file with your editor.
-* Step 8: Create a simple web page with a paragraph that says `Hello Git kata!`. If you want to open the directory in Atom that you are in, issue the `atom .` command.
-* Step 9: Back to the terminal. Issue the `git status` command. You will see something like the following. This means that Git noticed you have changes (you added a file) but is currently choosing to ignore it/not track it.
+* Step 8: Open the file in the text editor of your choice. If you are using Atom, you can open the directory in Atom that you are in by issuing the `atom .` command
+* Step 9: Open `page.html`. It should be empty. Create a simple web page with a paragraph that says `Hello Git kata!`.
+* Step 10: Back to the terminal. Issue the `git status` command. You will see something like the following. This means that Git noticed you have changes (you added a file) but is currently choosing to ignore it/not track it.
 ```
 Erics-MBP-2:foo ericsowell$ git status
 On branch master
@@ -35,8 +36,8 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 ```
-* Step 10: Now we will make git track the changes. Issue this command in the terminal: `git add page.html`.
-* Step 11: Issue the `git status` command. You should see the following. Git is now tracking your changes, but they aren't saved into the repository.
+* Step 11: Now we will make git track the changes. Issue this command in the terminal: `git add page.html`.
+* Step 12: Issue the `git status` command. You should see the following. Git is now tracking your changes, but they aren't saved into the repository.
 ```
 On branch master
 
@@ -47,14 +48,14 @@ Changes to be committed:
 
 	new file:   page.html
 ```
-* Step 12: Issue the `git commit -m "committing new page"`. The change is now in your *local* repo but not up on GitHub, which is your *remote* repo.
-* Step 13: Go to GitHub. Refresh your repo page. You should *not* see your file yet because you have not pushed it yet.
-* Step 14: Issue the `git status` command. You should see something like this:
+* Step 13: Issue the `git commit -m "committing new page"`. The change is now in your *local* repo but not up on GitHub, which is your *remote* repo.
+* Step 14: Go to GitHub. Refresh your repo page. You should *not* see your file yet because you have not pushed it yet.
+* Step 15: Issue the `git status` command. You should see something like this:
 ```
 On branch master
 nothing to commit, working directory clean
 ```
-* Step 15: Issue the command `git push`. Depending on how you have Git configured, you may see more or less text than this. But you should at least see something very similar to this, possibly toward the bottom:
+* Step 16: Issue the command `git push`. Depending on how you have Git configured, you may see more or less text than this. But you should at least see something very similar to this, possibly toward the bottom:
 ```
 Counting objects: 3, done.
 Writing objects: 100% (3/3), 249 bytes | 0 bytes/s, done.
@@ -62,8 +63,8 @@ Total 3 (delta 0), reused 0 (delta 0)
 To https://github.com/Mallioch/steak.git
  * [new branch]      master -> master
 ```
-* Step 16: Go to GitHub. Refresh your repo page. You *should* see your file.
-* Step 17: Congratulate yourself! You have checked your code in to your local repo and up on GitHub.
+* Step 17: Go to GitHub. Refresh your repo page. You *should* see your file.
+* Step 18: Congratulate yourself! You have checked your code in to your local repo and up on GitHub.
 
 ## Short Version
 
@@ -73,7 +74,7 @@ To https://github.com/Mallioch/steak.git
 * Step 4: Clone the repo you created in step 2.
 * Step 5: Change into that directory so you are at the root folder of that Git repository.
 * Step 6: Create an html file named `page.html`.
-* Step 7: Create a simple web page with a paragraph that says `Hello Git kata!`
+* Step 7: Open that file and create a simple web page with a paragraph that says `Hello Git kata!`
 * Step 8: Now we will make git track the changes. Issue this command in the terminal: `git add page.html`.
 * Step 9: Issue the `git commit -m "committing new page"`. The change is now committed locally.
 * Step 10: Issue the command `git push`.
