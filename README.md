@@ -4,4 +4,4 @@ Katas are (usually) short exercises meant for training. If done repeatedly, they
 
 If you are doing this for an assignment, do each assigned kata in a new repository. If you don't want to litter your public Github repository with a bunch of little repositories, feel free to create an organization on GitHub for the class to keep these in.
 
-[Kata 1](kata.md)
+[Kata 1](kata-1.md)
