@@ -8,12 +8,18 @@ The first time you do this kata, use this version. When you think you understand
 
 * Step 1: Go to [GitHub](https://github.com) and login if you are not currently logged in.
 * Step 2: Create a new repository. Name it anything you like, though I would stick with alphanumeric characters, dash, and underline.
-* Step 3: Go in your terminal to where you keep your code on your laptop. As an example, my code goes here: `/Users/ericsowell/Dev`.
-* Step 4: Clone the repo you created in step 2.
+* Step 3: Go in your terminal to where you keep your code on your laptop. As an example, my code goes here: `/Users/ericsowell/Dev`. You will probably see a message that looks something like this:
+```
+Cloning into 'katapractice1'...
+warning: You appear to have cloned an empty repository.
+Checking connectivity... done.
+```
+The warning isn't bad. You are in fact cloning an empty repository.
+* Step 4: Clone the repo you created in step 2. Issue the command `git clone https://github.com/<your-user-name>/<repo-name>.git`.
 * Step 5: Use the `ls` command. Note that you should have a folder with the same name as the repository you created in step 2.
 * Step 6: Change into that directory so you are at the root folder of that Git repository. If you issue a `ls -a` command, you should see a `.git` folder. There should be no files.
 * Step 7: Create an html file named `page.html`. Either do that by issuing `touch page.html` in the console or create the file with your editor.
-* Step 8: Create a simple web page with a paragraph that says `Hello Git kata!`
+* Step 8: Create a simple web page with a paragraph that says `Hello Git kata!`. If you want to open the directory in Atom that you are in, issue the `atom .` command.
 * Step 9: Back to the terminal. Issue the `git status` command. You will see something like the following. This means that Git noticed you have changes (you added a file) but is currently choosing to ignore it/not track it.
 ```
 Erics-MBP-2:foo ericsowell$ git status
